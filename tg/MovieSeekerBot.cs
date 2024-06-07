@@ -28,7 +28,7 @@ namespace tg
 
         public MovieSeekerBot()
         {
-            botClient = new TelegramBotClient("6902429444:AAHcL-DRT7IGgf8Or_Bcy4xEjdxW1vp2ERg");
+            botClient = new TelegramBotClient("MyApiKey");
             cts = new CancellationTokenSource();
             receiverOptions = new ReceiverOptions { AllowedUpdates = Array.Empty<UpdateType>() };
             httpClient = new HttpClient();
